@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Book form</title>
+</head>
+<link href="style.css" rel="stylesheet">
+<div class="main">
+  <style>
+    body{
+      background-image:url(bgg.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .box {width: 600px;
+   float:right;}
+   .box ul li{
+       width: 120px;
+       float:right;
+       margin:10px auto;
+       text-align: center;
+   }
+   .box ul li a{ text-decoration: none;
+   color:white;}
+   .box ul li:hover{background-color: green;}
+   .box ul li a:hover{color:white;}
+</style>
+<body>
+  <br>
+  <br>
+  <div class="box">
+    <ul type="none">
+        <li><a href ="index3.html"> Book Now</a></li>
+        <li><a href ="indexx.html"> Restaurants</a></li>
+     </ul> <br></div>
+
+     <div>
+<form>
+  <br>
+    <h1 style="color: #9797af; text-align: center; font-size: 50px;"> FORM</h1>
+    <br>
+<div id="name">
+<h2 class="name">Name</h2>
+<input class="firstname" type="text" name="first_name" placeholder="First Name, Middle Initial, Last Name">
+
+</div>
+<h2 class="name">Contact No.</h2>
+<input class="contact" type="text" name="contact" placeholder="Phone number">
+<h2 class="name">Restaurant</h2>
+<div class="resto" name="resto">
+<select>
+    <option value='1'>Beach Club Cagpo</option>
+    <option value='2'>Cafe Mamita</option>
+    <option value='3'>Case De Don Emilio </option>
+    <option value='4'>Curba Grill</option>
+    <option value='5'>10 Y.O Cafe</option>
+    <option value='6'>Kusina sa Plaza</option>
+     <option value='7'>BFC Restaurant</option>
+     <option value='8'>La Concha</option>
+     <option value='9'>Sitio Cafe</option>
+     <option value='10'>Goods Food Hub</option>
+    
+        </select> 
+
+<h2 class="name">Time</h2>
+<input class="time" type="text" name="time" placeholder="Time">
+
+<h2 class="name">No. of People</h2>
+<input class="person" type="number" name="person">
+<div class="btn">
+<center><input type="button" onclick="reset()" value="Cancel"/>
+<input type="button" onclick="pop()" value="Submit"/></center>
+</div>
+</form>
+</div>
+</div>
+</body>
+<script>
+    function pop(){
+      alert("Thank You! Your reservation is now being process");
+    }
+  </script>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
